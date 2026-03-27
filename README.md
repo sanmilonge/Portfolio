@@ -1,98 +1,104 @@
-Oluwasanmi Longe – Portfolio Website
+# 🌐 Oluwasanmi Longe — Personal Portfolio Website
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
+![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen?style=for-the-badge)
 
+A clean, responsive personal portfolio website built with vanilla HTML, CSS, and JavaScript — showcasing my projects, skills, and contact information.
 
+** Live Site:** [sanmilonge.github.io](https://sanmilonge.github.io)
 
+---
 
+## Table of Contents
 
+- [Overview](#overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Projects Showcased](#projects-showcased)
+- [Getting Started](#getting-started)
+- [Contact](#contact)
 
+---
 
+## Overview
 
+This is my personal portfolio website, designed to present my work as an aspiring Software Developer and Software Engineer based in Leeds, United Kingdom. It serves as a central hub for my projects, background, and contact details.
 
-Overview
+---
 
-This repository contains the source code for a personal portfolio website developed to present my projects, technical skills, and background as an aspiring Software Developer and Software Engineer.
+## Features
 
-The website is designed with a focus on clarity, usability, and responsiveness, providing a central platform to showcase my work and allow potential employers or collaborators to explore my projects.
+- **Responsive Design** — Works across desktop, tablet, and mobile devices
+- **Smooth Navigation** — Anchor-based single-page navigation with a fixed header
+- **Projects Showcase** — Card-based grid layout for displaying projects with links
+- **Contact Form** — Built-in contact form for direct messaging
+- **Social Links** — Quick access to Facebook, GitHub, and WhatsApp
+- **Font Awesome Icons** — Iconography throughout the UI for a polished look
 
-Features
-Responsive and modern user interface
-Structured navigation across sections
-Project showcase with direct GitHub links
-Contact section with form interface
-Social media integration
-Lightweight and fast-loading design
-Technologies Used
-HTML5 – Page structure and content
-CSS3 – Styling and layout
-JavaScript – Client-side interactivity
-Font Awesome – Icons
-Project Structure
-portfolio-website/
-│── index.html
-│── style.css
-│── script.js
-│── profilepicture.jpg
-Sections
-Home
+---
 
-Introduces the portfolio owner and provides a clear call-to-action to view projects.
+## Project Structure
 
-About
+```
+sanmilonge.github.io/
+├── index.html          # Main HTML structure
+├── style.css           # Stylesheet
+├── script.js           # JavaScript interactions
+├── profilepicture.jpg  # Profile photo
+└── File Parser/
+    └── Working parser/
+        └── sanmisFileParser.py
+```
 
-Provides a concise overview of background, interests, and development focus.
+---
 
-Projects
+## Projects Showcased
 
-Highlights selected work, including:
+| Project | Description | Link |
+|---|---|---|
+| **File Parser** | A command-line tool for reading, replacing, and converting PDF, TXT, DOCX, and CSV files | [View](https://github.com/sanmilonge/sanmilonge.github.io/blob/main/File%20Parser/Working%20parser/sanmisFileParser.py) |
+| **Reverse Shell** | Remote connection tool allowing command execution on a colleague's machine via terminal | Coming Soon |
+| **Number Guessing Game** | A simple Python game where the user guesses a number between 0 and 100 | [View](https://github.com/sanmilonge/sanmilonge.github.io/blob/main/guessingGame.py) |
 
-File Parser – Multi-format file processing tool
-Reverse Shell – Network communication tool
-Number Guessing Game – Simple interactive application
+---
 
-Each project includes a direct link to its repository.
+## Getting Started
 
-Contact
+To run this project locally:
 
-Includes:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sanmilonge/sanmilonge.github.io.git
+   ```
 
-Email contact information
-Contact form interface
-Links to social platforms (GitHub, Facebook, WhatsApp)
-Getting Started
-Clone the Repository
-git clone https://github.com/yourusername/portfolio-website.git
-Navigate to the Project Directory
-cd portfolio-website
-Run the Website
+2. **Navigate into the project folder**
+   ```bash
+   cd sanmilonge.github.io
+   ```
 
-Open the index.html file in a web browser.
+3. **Open in your browser**
+   ```bash
+   open index.html
+   ```
+   Or simply double-click `index.html` in your file explorer.
 
-Deployment
+> No build tools, dependencies, or package managers required — it's pure HTML, CSS, and JavaScript.
 
-This project can be deployed using:
+---
 
-GitHub Pages
-Netlify
-Vercel
+## Contact
 
-To deploy via GitHub Pages:
+Have a question or want to collaborate?
 
-Navigate to repository settings
-Select "Pages"
-Set the branch to main and root directory
-Save and access the generated URL
-Future Improvements
-Add backend integration for the contact form
-Improve responsiveness for smaller devices
-Introduce animations and transitions
-Expand project portfolio with live demos
-Implement a dark mode option
-Author
+ **Email:** [longesanmi700@gmail.com](mailto:longesanmi700@gmail.com)
+-  **GitHub:** [github.com/sanmilonge](https://github.com/sanmilonge/sanmilonge.github.io)
+-  **Facebook:** [Profile](https://www.facebook.com/profile.php?id=100073415635436)
+-  **WhatsApp:** [Chat](https://wa.me/qr/3DC3WPTUQ2F4L1)
 
-Oluwasanmi Longe
-Aspiring Software Developer and Software Engineer
+---
 
-License
-
-This project is intended for personal and educational use.
+<p align="center">© 2024 Oluwasanmi Longe. All Rights Reserved.</p>
